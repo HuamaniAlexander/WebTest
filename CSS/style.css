@@ -1,0 +1,41 @@
+.caja {
+    background-color: lightblue;
+    padding: 20px;
+}
+
+#banner {
+    height: 200px;
+    background-color: crimson;
+}
+
+.img {
+    max-width: 100%;
+    height: auto;
+}
+
+.columna {
+    width: 50%;
+    float: left;
+}
+
+@media (max-width: 768px) {
+    .columna {
+        width: 100%;
+    }
+}
+
+h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Tahoma;
+}
+
+p{
+    font-family: monospace;
+}
+
+#p1{
+    color: #ffffff;
+    padding: 30px;
+    text-align: justify;
+}
